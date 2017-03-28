@@ -78,79 +78,88 @@ This goal is the sister goal of [Common JS Utility Functions - Underscore](202-C
 ## Specifications
 
 - [ ] Tests and correct implementations exist for **64** (not all) utility functions from the Lodash library.
-    Array
-      - [ ] chunk
-      - [ ] compact
-      - [ ] concat
-      - [ ] difference
-      - [ ] drop
-      - [ ] dropRight
-      - [ ] fill
-      - [ ] findIndex
-      - [ ] findLastIndex
-      - [ ] head
-      - [ ] indexOf
-    Collection
-      - [ ] every
-      - [ ] forEach
-      - [ ] includes
-      - [ ] invokeMap
-      - [ ] sortBy
-    Function
-      - [ ] defer
-      - [ ] flip
-    Lang
-      - [ ] castArray
-      - [ ] clone
-      - [ ] eq
-      - [ ] gt
-      - [ ] gte
-      - [ ] isArray
-      - [ ] isBoolean
-      - [ ] isEmpty
-      - [ ] isNan
-      - [ ] isRegExp
-      - [ ] isSet
-      - [ ] isString
-      - [ ] lt
-      - [ ] toFinite
-    Math
-      - [ ] add
-      - [ ] ceil
-      - [ ] divide
-      - [ ] floor
-      - [ ] max
-      - [ ] mean
-      - [ ] min
-      - [ ] multiply
-      - [ ]round
-      - [ ] subtract
-      - [ ] sum
-      - [ ] sumBy
-    Number
-      - [ ] clamp
-      - [ ] inRange
-      - [ ] random
-    Object
-      - [ ] findKey
-      - [ ] findLastKey
-      - [ ] forIn
-      - [ ] get
-      - [ ] has
-      - [ ] keys
-      - [ ] omit
-      - [ ] pick
-    String
-      - [ ] camelCase
-      - [ ] endsWith
-      - [ ] parseInt
-      - [ ] toUpper
-      - [ ] trim
-      - [ ] words
-    Util
-      - [ ] itaratee
-      - [ ] matches
-      - [ ] property
+
+Array
+- [ ] chunk
+- [ ] compact
+- [ ] concat
+- [ ] difference
+- [ ] drop
+- [ ] dropRight
+- [ ] fill
+- [ ] findIndex
+- [ ] findLastIndex
+- [ ] head
+- [ ] indexOf
+
+Collection
+- [ ] every
+- [ ] forEach
+- [ ] includes
+- [ ] invokeMap
+- [ ] sortBy
+
+Function
+- [ ] defer
+- [ ] flip
+
+Lang
+- [ ] castArray
+- [ ] clone
+- [ ] eq
+- [ ] gt
+- [ ] gte
+- [ ] isArray
+- [ ] isBoolean
+- [ ] isEmpty
+- [ ] isNan
+- [ ] isRegExp
+- [ ] isSet
+- [ ] isString
+- [ ] lt
+- [ ] toFinite
+
+Math
+- [ ] add
+- [ ] ceil
+- [ ] divide
+- [ ] floor
+- [ ] max
+- [ ] mean
+- [ ] min
+- [ ] multiply
+- [ ]round
+- [ ] subtract
+- [ ] sum
+- [ ] sumBy
+
+Number
+- [ ] clamp
+- [ ] inRange
+- [ ] random
+
+Object
+- [ ] findKey
+- [ ] findLastKey
+- [ ] forIn
+- [ ] get
+- [ ] has
+- [ ] keys
+- [ ] omit
+- [ ] pick
+
+String
+- [ ] camelCase
+- [ ] endsWith
+- [ ] parseInt
+- [ ] toUpper
+- [ ] trim
+- [ ] words
+
+Util
+- [ ] itaratee
+- [ ] matches
+- [ ] property
 
 
 
