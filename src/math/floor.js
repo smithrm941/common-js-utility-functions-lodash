@@ -9,7 +9,7 @@ const floor = (number, precision) => {
       if (precision === undefined || precision  === 0) {
         for(let i = 0; i < afterDecimal.length; i++){
           if(numberString[i] > 0){
-            let roundDown = parseInt(beforeDecimal) -1;
+            let roundDown = parseInt(beforeDecimal);
             return roundDown;
           }
         }
@@ -19,13 +19,13 @@ const floor = (number, precision) => {
           let afterDecimalArray = afterDecimal.split('');
           for(let j = 1; j < afterDecimalArray.length; j++){
             if(j === precision){
-              afterDecimalArray.splice(j, 1, parseInt(afterDecimalArray[j])+1);
+              afterDecimalArray.splice(j, 1, parseInt(afterDecimalArray[j]));
               afterDecimalArray.splice(j, 1, afterDecimalArray[j].toString());
             }
           }
           afterDecimalArray.unshift(beforeDecimalArray[0]);
           let newNumberString = afterDecimalArray.join('');
-          let roundedFloat = newNumberString.substring(0, decimalIndex + precision + 1);
+          let roundedFloat = newNumberString.substring(0, decimalIndex + precision);
           return parseFloat(roundedFloat);
         }
     }
