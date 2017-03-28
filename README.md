@@ -79,6 +79,8 @@ This goal is the sister goal of [Common JS Utility Functions - Underscore](202-C
 
 - [ ] Tests and correct implementations exist for **64** (not all) utility functions from the Lodash library.
 
+Our 64 functions:
+
 Array
 - [ ] chunk
 - [ ] compact
@@ -128,7 +130,7 @@ Math
 - [ ] mean
 - [ ] min
 - [ ] multiply
-- [ ]round
+- [ ] round
 - [ ] subtract
 - [ ] sum
 - [ ] sumBy
@@ -161,7 +163,7 @@ Util
 - [ ] matches
 - [ ] property
 
-
+### Other Specs
 
 - [ ] Functions are organized into files with the same names as the function groups from Lodash (e.g. "Array", "Collection", "Lang").
 - [ ] All code is written with ES2015.
