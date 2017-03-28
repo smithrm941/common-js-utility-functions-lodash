@@ -1,0 +1,24 @@
+{
+  "name": "common-js-utility-functions-lodash",
+  "version": "1.0.0",
+  "description": "miscreant-duker",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smithrm941/common-js-utility-functions-lodash.git"
+  },
+  "keywords": [],
+  "author": "Rhonda Smith, Aisha Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smithrm941/common-js-utility-functions-lodash/issues"
+  },
+  "homepage": "https://github.com/smithrm941/common-js-utility-functions-lodash#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
