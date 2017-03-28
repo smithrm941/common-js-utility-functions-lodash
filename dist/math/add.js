@@ -1,7 +1,10 @@
 "use strict";
 
-add = function add(augend, addend) {
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var add = function add(augend, addend) {
   return augend + addend;
 };
 
-module.exports = add;
+exports.add = add;
