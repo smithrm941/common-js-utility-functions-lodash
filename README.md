@@ -122,17 +122,17 @@ Lang
 - [ ] toFinite
 
 Math
-- [ ] add
-- [ ] ceil
-- [ ] divide
-- [ ] floor
-- [ ] max
-- [ ] mean
-- [ ] min
-- [ ] multiply
+- [X] add
+- [X] ceil
+- [X] divide
+- [X] floor
+- [X] max
+- [X] mean
+- [X] min
+- [X] multiply
 - [ ] round
-- [ ] subtract
-- [ ] sum
+- [X] subtract
+- [X] sum
 - [ ] sumBy
 
 Number
