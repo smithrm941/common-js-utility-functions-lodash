@@ -6,7 +6,7 @@ let should = chai.should()
 
 describe('subtracts two arguments together', function(){
   it('returns the sum of two arguments', function(){
-    expect(subtract(1, 2)).to.be.equal(3)
-    expect(subtract(41, 411)).to.be.equal(452)
+    expect(subtract(1, 2)).to.equal(3)
+    expect(subtract(41, 411)).to.equal(452)
   })
 })
