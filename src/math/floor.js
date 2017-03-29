@@ -14,18 +14,7 @@ const floor = (number, precision) => {
           }
         }
       } else if (precision > 0) {
-          let beforeDecimalArray = [];
-          beforeDecimalArray.push(beforeDecimal);
-          let afterDecimalArray = afterDecimal.split('');
-          for(let j = 1; j < afterDecimalArray.length; j++){
-            if(j === precision){
-              afterDecimalArray.splice(j, 1, parseInt(afterDecimalArray[j]));
-              afterDecimalArray.splice(j, 1, afterDecimalArray[j].toString());
-            }
-          }
-          afterDecimalArray.unshift(beforeDecimalArray[0]);
-          let newNumberString = afterDecimalArray.join('');
-          let roundedFloat = newNumberString.substring(0, decimalIndex + precision);
+          let roundedFloat = numberString.substring(0, decimalIndex + precision + 1)
           return parseFloat(roundedFloat);
         }
     }
