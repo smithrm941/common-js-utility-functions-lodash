@@ -108,17 +108,17 @@ Function
 Lang
 - [ ] castArray
 - [ ] clone
-- [ ] eq
-- [ ] gt
-- [ ] gte
-- [ ] isArray
-- [ ] isBoolean
-- [ ] isEmpty
+- [X] eq
+- [X] gt
+- [X] gte
+- [X] isArray
+- [X] isBoolean
+- [X] isEmpty
 - [ ] isNan
 - [ ] isRegExp
 - [ ] isSet
-- [ ] isString
-- [ ] lt
+- [X] isString
+- [X] lt
 - [ ] toFinite
 
 Math
