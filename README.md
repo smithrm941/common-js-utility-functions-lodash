@@ -106,7 +106,7 @@ Function
 - [ ] flip
 
 Lang
-- [ ] castArray
+- [X] castArray
 - [ ] clone
 - [X] eq
 - [X] gt
@@ -114,7 +114,7 @@ Lang
 - [X] isArray
 - [X] isBoolean
 - [X] isEmpty
-- [ ] isNan
+- [X] isNan
 - [ ] isRegExp
 - [ ] isSet
 - [X] isString
