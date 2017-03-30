@@ -106,19 +106,19 @@ Function
 - [ ] flip
 
 Lang
-- [ ] castArray
+- [X] castArray
 - [ ] clone
-- [ ] eq
-- [ ] gt
-- [ ] gte
-- [ ] isArray
-- [ ] isBoolean
-- [ ] isEmpty
-- [ ] isNan
+- [X] eq
+- [X] gt
+- [X] gte
+- [X] isArray
+- [X] isBoolean
+- [X] isEmpty
+- [X] isNan
 - [ ] isRegExp
 - [ ] isSet
-- [ ] isString
-- [ ] lt
+- [X] isString
+- [X] lt
 - [ ] toFinite
 
 Math
