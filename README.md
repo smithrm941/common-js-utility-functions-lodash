@@ -152,7 +152,7 @@ Object
 
 String
 - [ ] camelCase
-- [ ] endsWith
+- [X] endsWith
 - [ ] parseInt
 - [ ] toUpper
 - [ ] trim
