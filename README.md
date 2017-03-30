@@ -86,7 +86,7 @@ Array
 - [ ] compact
 - [ ] concat
 - [ ] difference
-- [ ] drop
+- [X] drop
 - [ ] dropRight
 - [ ] fill
 - [ ] findIndex
