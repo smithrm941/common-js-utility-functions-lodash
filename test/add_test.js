@@ -1,11 +1,12 @@
-var expect = require ('chai').expect
-var add = require ('../src/math/add')
+import chai from 'chai'
+import { add } from '../src/math/add'
 
-describe('add()', function()){
-  it('should add two arguments together', function(){
-    expect(add(1, 2)).to.deep.equal(3)
-    expect(add(41, 411)).to.deep.equal(452)
-    expect(add(-41, 411)).to.deep.equal(370)
-    expect(add(-114, -41)).to.deep.equal(-155)
+let expect = chai.expect
+let should = chai.should()
+
+describe('adds two arguments together', function(){
+  it('returns the sum of two arguments', function(){
+    expect(add(1, 2)).to.equal(3)
+    expect(add(41, 411)).to.equal(452)
   })
-}
+})
