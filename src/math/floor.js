@@ -5,7 +5,7 @@ const floor = (number, precision) => {
     let afterDecimal = numberString.substring(decimalIndex, numberString.length);
   if (Number.isInteger(number)){
     return number;
-  } else if (Number.isInteger(number) === false) {
+  }
       if (precision === undefined || precision  === 0) {
         for(let i = 0; i < afterDecimal.length; i++){
           if(numberString[i] > 0){
@@ -17,8 +17,6 @@ const floor = (number, precision) => {
           let roundedFloat = numberString.substring(0, decimalIndex + precision + 1)
           return parseFloat(roundedFloat);
         }
-    }
-
 }
 
 export { floor }

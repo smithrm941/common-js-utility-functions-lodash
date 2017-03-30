@@ -4,9 +4,9 @@ import { subtract } from '../src/math/subtract'
 let expect = chai.expect
 let should = chai.should()
 
-describe('subtracts two arguments together', function(){
-  it('returns the sum of two arguments', function(){
-    expect(subtract(1, 2)).to.equal(3)
-    expect(subtract(41, 411)).to.equal(452)
+describe('subtracts second argument from first argument', function(){
+  it('returns the result of subtracting the second argument from the first', function(){
+    expect(subtract(1, 2)).to.equal(-1)
+    expect(subtract(41, 411)).to.equal(-370)
   })
 })

@@ -14,5 +14,7 @@ describe('Get highest number in an array', function(){
     expect(max([4.7, 10.3, 100, 18, 34])).to.equal(100)
     expect(max([4, 7, 10, 100])).to.equal(100)
     expect(max([4.7, 10.1, 100.25])).to.equal(100.25)
+    expect(max([-1, -4, -90, -4])).to.equal(-1)
+
   })
 })
