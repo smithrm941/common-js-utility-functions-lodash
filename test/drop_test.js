@@ -10,7 +10,7 @@ describe('drop creates a slice of an array with n elements dropped from the begi
     expect(drop(['hello', 48.5, [1, 2, 3], 'ok?'])).to.deep.equal([48.5, [1, 2, 3], 'ok?'])
     expect(drop(['Don\'t', 'do', 'drugs'], 0)).to.deep.equal(['do', 'drugs'])
   })
-  it('if second argument is greater than zero, drop that number of elements from the array', function(){
+  it('if second argument is greater than zero, drop that number of elements from the beginning of the array', function(){
     expect(drop(['Don\'t', 'do', 'drugs'], 2)).to.deep.equal(['drugs'])
     expect(drop([19489, 939394388, 100101, 341], 5)).to.deep.equal([])
   })

@@ -87,12 +87,12 @@ Array
 - [ ] concat
 - [ ] difference
 - [X] drop
-- [ ] dropRight
+- [X] dropRight
 - [ ] fill
 - [ ] findIndex
 - [ ] findLastIndex
-- [ ] head
-- [ ] indexOf
+- [X] head
+- [X] indexOf
 
 Collection
 - [ ] every
