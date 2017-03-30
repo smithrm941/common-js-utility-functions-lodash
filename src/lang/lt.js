@@ -1,8 +1,5 @@
 const lt = (value, other) => {
-  if (value < other){
-    return true;
+  return(value < other)
   }
-    return false;
-}
 
 export { lt }

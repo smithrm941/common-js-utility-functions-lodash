@@ -1,5 +1,5 @@
 const isArray = (value) => {
-  if (Array.isArray(value)) {
+  if (typeof value === 'object' && value.length) {
     return true;
   }
     return false;

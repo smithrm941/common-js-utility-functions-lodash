@@ -1,8 +1,5 @@
 const isBoolean = (value) => {
-  if (typeof value === 'boolean') {
-    return true;
-  }
-    return false;
+  return(typeof value === 'boolean')
 }
 
 export { isBoolean }
