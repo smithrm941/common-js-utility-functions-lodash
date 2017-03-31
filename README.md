@@ -72,7 +72,7 @@ This goal is the sister goal of [Common JS Utility Functions - Underscore](202-C
 
 ## Specifications
 
-- [ ] Tests and correct implementations exist for **64** (not all) utility functions from the Lodash library.
+- [X] Tests and correct implementations exist for **27/64** (not all) utility functions from the Lodash library.
 
 Our 64 functions:
 
@@ -160,10 +160,10 @@ Util
 
 ### Other Specs
 
-- [ ] Functions are organized into files with the same names as the function groups from Lodash (e.g. "Array", "Collection", "Lang").
-- [ ] All code is written with ES2015.
+- [X] Functions are organized into files with the same names as the function groups from Lodash (e.g. "Array", "Collection", "Lang").
+- [X] All code is written with ES2015.
 - [ ] Includes a README that describes each method and provides an example of use.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
+- [X] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Stretch
 
