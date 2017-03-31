@@ -154,7 +154,7 @@ String
 - [ ] camelCase
 - [X] endsWith
 - [ ] parseInt
-- [ ] toUpper
+- [X] toUpper
 - [ ] trim
 - [ ] words
 
