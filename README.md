@@ -12,63 +12,41 @@ title: Common JS Utility Functions [Lodash]
 created_at: '2017-03-27'
 ---
 
-# Common JS Utility Functions - Lodash
+For this project, we reverse engineered a selection of functions from the Lodash library to show what is happening "under the hood" when one of these functions is executed. 
 
-## Challenge Rubric
+For example, take the Lodash function _.drop, which takes as arguments an array from which elements will be dropped and a number which tells the function how many elements to drop from the beginning of the array. Using the Lodash function _.drop on an array [1, 2, 3] to drop the first two elements looks like this:
 
-This goal will likely be within your ZPD if you...
-
-- Can write JavaScript programs for Node.js
-- Can use problem decomposition to split difficult problems into smaller parts
-- Have used pseudocode as an intermediary step in writing a program
-- Are familiar with common JavaScript packages/libraries like Lodash or Underscore
-- Are interested in testing and test-driven-development (TDD)
-- Are interested in understanding how many of the most common utility functions actually work
-- Are interested in understanding how developers write high-level code for others to use
-- Are interested in reading and interpreting technical documentation
-- Are interested in writing ES2015
-
-## Description
-
-Create a library of commonly used JavaScript utility functions by reverse engineering the popular [Lodash][lodash] library.
-
-Use the documentation to build a smaller clone of the [Lodash API][lodash-docs] (current version: 4.17.4) with ES2015. Publish the code as a package to NPM (stretch).
-
-In addition to implementing the functions themselves, write tests for each of the functions. Luckily for you, _most of the work of writing tests has already been done for you_. Use the descriptions and examples from the documentation to make your tests.
-
-For example, a test for the [`_.chunk()`](https://lodash.com/docs/4.17.4#chunk) Array method could look like this (using the Node.js builtin `assert` library):
-
-```javascript
-const assert = require('assert')
-const _ = require('array.js')
-
-assert.deepEqual(
-  _.chunk(['a', 'b', 'c', 'd'], 2),
-  [['a', 'b'], ['c', 'd']],
-  "Creates an array of elements split into groups the length of size."
-)
-
-assert.deepEqual(
-  _.chunk(['a', 'b', 'c', 'd'], 3),
-  [['a', 'b', 'c'], ['d']],
-  "If array can't be split evenly, the final chunk will be the remaining elements."
-)
+```
+_.drop([1, 2, 3], 2)
 ```
 
-Note that the code and messages were shamelessly copied directly from the [Lodash docs][lodash-docs].
+and returns this:
 
-## Context
+```
+[3]
+```
 
-This project will take you into the realm of real a JavaScript library used by thousands (maybe millions) of developers across the world. You'll have to think like an open-source software developer and learn the benefits and constraints of such a role.
+In our project, we recreated this function using this code:
 
-In addition, your code may be used by other developers to make their jobs easier. Hopefully this project helps you better understand how to contribute to the open source community so that you can be an active member throughout your career.
+```
+const drop = (dropArray, n) => {
+  if(n === undefined || n === 0){
+    dropArray.shift();
+    return dropArray;
+  } else if (n > 0){
+    while(n > 0){
+      dropArray.shift();
+      n--;
+    }
+    return dropArray;
+  }
+}
+```
 
-The questions that this project will raise are:
-- What happens "under the hood" of the most common utility functions?
-- How do we write packages that are easy to understand and simple to use out of the box?
-- How to publish a package to NPM? (part of stretch goal)
+With this code and our example array, invoking drop([1, 2, 3], 2) will return [3] just as the corresponding Lodash function did. 
 
-This goal is the sister goal of [Common JS Utility Functions - Underscore](202-Common_JS_Utility_Functions-Underscore.md).
+In addition to _.drop, we reproduced underlying code for an additional 26 Lodash functions (27 functions in total).
+
 
 ## Specifications
 
