@@ -86,13 +86,13 @@ Array
 - [ ] compact
 - [ ] concat
 - [ ] difference
-- [ ] drop
-- [ ] dropRight
+- [X] drop
+- [X] dropRight
 - [ ] fill
 - [ ] findIndex
 - [ ] findLastIndex
-- [ ] head
-- [ ] indexOf
+- [X] head
+- [X] indexOf
 
 Collection
 - [ ] every
