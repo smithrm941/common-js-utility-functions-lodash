@@ -9,12 +9,7 @@ license: MIT
 team_size: 2
 goal_id: 37
 title: Common JS Utility Functions [Lodash]
-created_at: '2016-07-15T23:34:34Z'
-labels:
-- practice
-published: true
-level: '1'
-redirect_from: "/goals/37"
+created_at: '2017-03-27'
 ---
 
 # Common JS Utility Functions - Lodash
@@ -137,7 +132,7 @@ Math
 
 Number
 - [ ] clamp
-- [ ] inRange
+- [X] inRange
 - [ ] random
 
 Object
