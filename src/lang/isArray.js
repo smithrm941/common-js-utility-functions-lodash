@@ -1,8 +1,5 @@
 const isArray = (value) => {
-  if (typeof value === 'object' && value.length) {
-    return true;
-  }
-    return false;
+    return (typeof value === 'object' && value.length !== undefined);
 }
 
 export { isArray }

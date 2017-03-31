@@ -1,8 +1,5 @@
 const isString = (value) => {
-  if (typeof value === 'string') {
-    return true;
-  }
-    return false;
+  return typeof value === 'string'
 }
 
 export { isString }
