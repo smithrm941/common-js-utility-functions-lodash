@@ -86,13 +86,13 @@ Array
 - [ ] compact
 - [ ] concat
 - [ ] difference
-- [ ] drop
-- [ ] dropRight
+- [X] drop
+- [X] dropRight
 - [ ] fill
 - [ ] findIndex
 - [ ] findLastIndex
-- [ ] head
-- [ ] indexOf
+- [X] head
+- [X] indexOf
 
 Collection
 - [ ] every
@@ -152,9 +152,9 @@ Object
 
 String
 - [ ] camelCase
-- [ ] endsWith
+- [X] endsWith
 - [ ] parseInt
-- [ ] toUpper
+- [X] toUpper
 - [ ] trim
 - [ ] words
 
