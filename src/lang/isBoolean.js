@@ -1,5 +1,5 @@
-const isBoolean = (value) => {
-  return(typeof value === 'boolean')
-}
+const isBoolean = value => {
+    return typeof value === "boolean";
+};
 
-export { isBoolean }
+export { isBoolean };

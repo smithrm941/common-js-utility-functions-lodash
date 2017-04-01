@@ -1,5 +1,5 @@
-const head = (headArray) => {
-  return headArray[0];
-}
+const head = headArray => {
+    return headArray[0];
+};
 
-export { head }
+export { head };

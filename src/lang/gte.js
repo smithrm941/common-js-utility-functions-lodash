@@ -1,5 +1,5 @@
 const gte = (value, other) => {
-  return (value >= other);
-}
+    return value >= other;
+};
 
-export { gte }
+export { gte };

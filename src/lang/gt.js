@@ -1,5 +1,5 @@
 const gt = (value, other) => {
-  return value > other;
-}
+    return value > other;
+};
 
-export { gt }
+export { gt };
