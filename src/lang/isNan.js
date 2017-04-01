@@ -1,5 +1,5 @@
-const isNaN = (value) => {
-  return value !== value;
-}
+const isNaN = value => {
+    return value !== value;
+};
 
-export { isNaN }
+export { isNaN };
