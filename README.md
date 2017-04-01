@@ -12,7 +12,7 @@ title: Common JS Utility Functions [Lodash]
 created_at: '2017-03-27'
 ---
 
-For this project, we reverse engineered a selection of functions from the Lodash library to show what is happening "under the hood" when one of these functions is executed. 
+For this project, we reverse engineered a selection of functions from the Lodash library to show what is happening "under the hood" when one of these functions is executed.
 
 For example, take the Lodash function _.drop, which takes as arguments an array from which elements will be dropped and a number which tells the function how many elements to drop from the beginning of the array. Using the Lodash function _.drop on an array [1, 2, 3] to drop the first two elements looks like this:
 
@@ -43,7 +43,7 @@ const drop = (dropArray, n) => {
 }
 ```
 
-With this code and our example array, invoking drop([1, 2, 3], 2) will return [3] just as the corresponding Lodash function did. 
+With this code and our example array, invoking drop([1, 2, 3], 2) will return [3] just as the corresponding Lodash function did.
 
 In addition to _.drop, we reproduced underlying code for an additional 26 Lodash functions (27 functions in total).
 
@@ -140,7 +140,7 @@ Util
 
 - [X] Functions are organized into files with the same names as the function groups from Lodash (e.g. "Array", "Collection", "Lang").
 - [X] All code is written with ES2015.
-- [ ] Includes a README that describes each method and provides an example of use.
+- [X] Includes a README that describes each method and provides an example of use.
 - [X] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Stretch
@@ -155,21 +155,21 @@ Util
 ## Quality Rubric
 
 **Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
+- [X] Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
+- [X] Running the linter on all source code files generates no linting errors. [50 points]
 
 **Clear and useful README**
-- Repository includes a README file with installation and setup instructions. [25 points]
-- Repository includes a README file with usage instructions and at least one example use case. [25 points]
+- [X] Repository includes a README file with installation and setup instructions. [25 points]
+- [X] Repository includes a README file with usage instructions and at least one example use case. [25 points]
 
 **Proper dependency management**
-- There is a command to install dependencies (e.g. `npm install`) and it is specified in the installation and setup instructions of the README. [50 points]
+- [X] There is a command to install dependencies (e.g. `npm install`) and it is specified in the installation and setup instructions of the README. [50 points]
 
 **Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
+- [X] Commit messages are concise and descriptive. [25 points]
+- [X] All features are added via pull requests. [25 points]
+- [X] Every pull request has a description summarizing the changes made. [25 points]
+- [X] Every pull request has been reviewed by at least one other person. [25 points]
 
 ## Resources
 
